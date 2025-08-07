@@ -1,0 +1,40 @@
+# Docker Compose file to run an MQTT broker and the MQTT publisher
+version: '3.10'
+
+services:
+  emqx-enterprise:
+    image: emqx/emqx-enterprise:5.0.4
+    container_name: emqx
+    healthcheck:
+      test: [ "CMD", "emqx", "ping" ]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+    ports:
+      - 1883:1883
+      - 18083:18083
+    volumes:
+      - type: bind
+        source: Resources/acl.conf
+        target: /opt/emqx/etc/acl.conf
+
+  redis:
+    image: redis/redis-stack:latest
+    container_name: redis
+    restart: always
+    ports:
+      - '6379:6379'
+      - '8001:8001'
+    healthcheck:
+      test: [ "CMD-SHELL", "redis-cli ping | grep PONG" ]
+      interval: 1s
+      timeout: 3s
+      retries: 5
+    volumes:
+      - ./data:/data
+      - .Resources/redis.conf:/usr/local/etc/redis/redis.conf
+
+
+networks:
+  emqx-net:
+    name: emqx-net
