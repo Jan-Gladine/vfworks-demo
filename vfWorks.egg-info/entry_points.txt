@@ -1,0 +1,2 @@
+[console_scripts]
+vfworks = rpio.__main__:main

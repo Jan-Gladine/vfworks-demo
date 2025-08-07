@@ -1,0 +1,74 @@
+PackageModel:
+    package=Package
+;
+
+Package:
+    'Package' '{'
+        'PackageID:' packageID=ID
+        'PackageName:' packageName=STRING
+        'Specifications:' '{' specifications+=Specification[','] '}'
+    '}'
+;
+
+SpecificationModel:
+    specifications+=Specification
+;
+
+Specification:
+    'Specification' '{'
+        'ID:' id=ID
+        'Name:' name=STRING
+        'Description:' description=STRING
+        'Standard:' standard=STRING
+        'Paragraph:' paragraph=STRING
+        'DOI:' doi=STRING
+        ('STL:' expression=Expression)?
+        'IsMandatory:' isMandatory=BOOL
+    '}'
+;
+
+ID:
+    /[A-Z0-9_]+/
+;
+
+BOOL:
+    'True' | 'False'
+;
+
+Expression:
+    Atomic | UnaryExpression | BinaryExpression
+;
+
+Atomic:
+    property=VarName operator=BooleanOperator  value=Number
+;
+
+BooleanOperator:
+    ('=' | '<=' | '>=' | '<' | '>')
+;
+
+UnaryExpression:
+    operator=UnaryOperator '(' expression=Expression ')'
+;
+
+BinaryExpression:
+    '(' left=Expression ')' operator=BinaryOperator '(' right=Expression ')'
+;
+
+UnaryOperator:
+    'G' | 'F' | '!' | 'X'
+;
+
+BinaryOperator:
+    '&' | '|' | '->' | 'U'
+;
+
+VarName:
+    /[a-zA-Z_][a-zA-Z0-9_]*/
+;
+
+Number:
+    /-?\d+(\.\d+)?/
+;
+
+
