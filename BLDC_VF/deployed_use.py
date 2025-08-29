@@ -6,9 +6,10 @@
 # * vfWorks can not be copied and/or distributed without the express
 # * permission of Bert Van Acker
 # **************************************************************************************
-from examples.Labcases.BLDC_predictiveMaintenance.RWSystem.D5065experiments import RWSystem_BLDC_D5065
+from RWSystem.D5065experiments import RWSystem_BLDC_D5065
 from vfworks.metamodels.validity_frame import ValidityFrame
 from vfworks.utils.model.modelLoader import ModelLoader
+
 
 DEPLOYED=True
 SERIAL=True
@@ -23,13 +24,12 @@ VF.setActiveModelStructure(name="anomalyDetector_2D")
 
 _model_loader = ModelLoader(name="VF_model_loader",validityFrame=VF)
 _model_loader.loadModel(type="torch")
-models = _model_loader.models
-for model in models:
-    model.n_features_in_ = 2
+model = _model_loader.models
+model.n_features_in_ = 2
 #-----------------------------------------------------------------------------------------------------------------------------------
 #   ASSIGN ANOMALY DETECTOR TO RW SYSTEM
 #-----------------------------------------------------------------------------------------------------------------------------------
-    system.loadAnomalyDetectionModel(model=model,type="torch")
+system.loadAnomalyDetectionModel(model=model,type="torch")
 
 # load runtime specifications for monitoring
 for spec in VF.specifications:
@@ -57,21 +57,12 @@ def anomalyDetection(self):
 
     score = sum(anomaly_scores)/len(anomaly_scores)
 
-    if label == "Normal":
-        certainty = predictions.count(1) / len(predictions)
-    else:
-        certainty = predictions.count(-1) / len(predictions)
     print("Power usage:" + self.power.__str__()+ " RPM:" + self.rpm.__str__() + " prediction:" + label)
-    if certainty < 1.0:
-        print("individual scores:" + str(anomaly_scores))
-    certainty_rounded = float(round(certainty,2))
+
 
     #remote monitoring
     data = f"{anomaly},{certainty_rounded}\n"
     self.serialPort.write(data.encode())
-
-    #local monitoring
-    self.runtimeMonitor()
 
 system.anomalyDetection= anomalyDetection
 

@@ -82,6 +82,7 @@ class ModelLoader(object):
         elif type == "torch":
             if self._validityframe.activeModelStructure.redundancy == 1:
                 self._models.append(load_model_from_pickle(file_name=model_location, modelType="torch"))
+                self.model = self._models[0]
             else:
                 for model in os.listdir(model_location):
                     self._models.append(load_model_from_pickle(file_name=os.path.join(model_location,model), modelType="torch"))

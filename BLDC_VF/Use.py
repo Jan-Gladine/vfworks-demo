@@ -7,14 +7,13 @@
 # * permission of Bert Van Acker
 # **************************************************************************************
 import time
-
+import random
 import serial
 from vfworks.metamodels.validity_frame import *
 from vfworks.utils.data.dataLoader import *
 from vfworks.utils.model.modelLoader import *
-
 #-------------------------LOAD EXISTING VF------------------------------------------------
-VF = ValidityFrame(name="VF_TORCH", description="Populate VF_BLDC package",config="config.yaml",loadExistingVF=True,VFPackage="")
+VF = ValidityFrame(name="BLDC_VF", description="Populate BLDC_VF package",config="config.yaml",loadExistingVF=True,VFPackage="")
 
 # 1 . Select model structure used for training
 VF.setActiveModelStructure(name="anomalyDetector_2D")
@@ -29,7 +28,8 @@ _model_loader.loadModel(type="torch")
 model = _model_loader.model
 
 #4. use the model for single datapoint predictions + send to wio terminal for visualization
-ser = serial.Serial('COM6', 115200)
+#ser = serial.Serial('COM6', 115200)
+velocity_command = 100
 model.n_features_in_ = 2
 for datapoint in data_test:
     _input = [datapoint]
@@ -39,9 +39,13 @@ for datapoint in data_test:
     print("Power usage:"+datapoint.__str__()+" prediction:"+label+" score: "+anomaly_score.__str__())  # (1 = anomaly, 0 = normal)
 
     anomaly = 1 if prediction[0] == -1 else 0
-    certainty = 1
-    data = f"{anomaly},{certainty}\n"
-
+    certainty = 0.5 + random.random() * 0.5 # generate random certainty for monitoring purposes
+    print("velCommand: " + str(velocity_command) + " Certainty: " + str(certainty))
+    for monitor in VF.runtime_monitors:
+        monitor.validate_point(certainty, "Certainty")
+        monitor.validate_point(velocity_command, "velocityCommand")
+        if monitor.status == StatusType.INVALID:
+            print("WARNING: " + monitor.observes[0].feature + " is out of range")
     time.sleep(1)
 
 

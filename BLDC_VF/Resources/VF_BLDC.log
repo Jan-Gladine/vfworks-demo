@@ -1,0 +1,265 @@
+2025-08-07 14:21:20,185 - ValidityFrame - INFO - New validityFrame initialized with GUID {5d79caa3-ceac-4575-a6ee-8521c7384ebc}
+2025-08-07 14:21:35,521 - ValidityFrame - INFO - New validityFrame initialized with GUID {c508ff97-aa57-4424-b751-9ea83c3989af}
+2025-08-07 14:21:35,549 - remoteExperiments - INFO - experiment added to the VF frame, GUID {fc474ee6-9696-47ee-92e6-b4c7d6951c84}
+2025-08-07 14:21:35,563 - remoteExperiments - INFO - experiment added to the VF frame, GUID {9c626fe6-a486-413a-b1cb-d8ab0a336a4a}
+2025-08-07 14:22:18,988 - ValidityFrame - INFO - New validityFrame initialized with GUID {74f7a4d7-a4e8-46e8-be85-d7c1cde6c911}
+2025-08-07 14:22:19,013 - remoteExperiments - INFO - experiment added to the VF frame, GUID {2f578619-2e7f-4f90-a213-e54dfafc2baa}
+2025-08-07 14:22:19,027 - remoteExperiments - INFO - experiment added to the VF frame, GUID {928e630a-aa13-46ac-8754-7cd9bfcc130b}
+2025-08-07 14:22:19,027 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {8feb1ee4-d53f-44b3-86e8-f6d44f83c812}
+2025-08-07 14:22:19,027 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {25b49a33-df1b-4652-82d6-358c732fd651}
+2025-08-07 14:22:19,027 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {e2ad199c-2545-4e3e-bb17-4fb0eb6678c0}
+2025-08-07 14:22:19,027 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {d73eda68-df1a-4e12-a25d-5638283151c5}
+2025-08-07 14:22:19,028 - ValidityFrame - INFO - Assign PoI with GUID {8feb1ee4-d53f-44b3-86e8-f6d44f83c812} to measurement with GUID {f0340fc5-dac8-4649-a5f4-3e8c89c5350b
+2025-08-07 14:22:19,028 - ValidityFrame - INFO - Assign PoI with GUID {8feb1ee4-d53f-44b3-86e8-f6d44f83c812} to measurement with GUID {03ccdfef-f28f-4c41-af2c-14b6c63775c4
+2025-08-07 14:22:19,028 - ValidityFrame - INFO - Assign PoI with GUID {25b49a33-df1b-4652-82d6-358c732fd651} to measurement with GUID {9909e19c-8fcf-4093-9715-f8f56a0e5b85
+2025-08-07 14:22:19,028 - ValidityFrame - INFO - Assign PoI with GUID {25b49a33-df1b-4652-82d6-358c732fd651} to measurement with GUID {105f9b5a-01c3-418b-8692-3c5b9857dd06
+2025-08-07 14:22:19,028 - ValidityFrame - INFO - Adding a model structure with GUID {e861ff83-066d-490d-a852-2db0ce8d6eb0 to the validity frame
+2025-08-07 14:22:19,028 - ValidityFrame - INFO - Adding a model structure with GUID {9e2d5274-0a63-49ba-966e-8d15bab68829 to the validity frame
+2025-08-07 14:28:21,078 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-07 14:28:21,079 - ValidityFrame - INFO - Loaded data from experiment {EXP2,928e630a-aa13-46ac-8754-7cd9bfcc130b} measurement {power,03ccdfef-f28f-4c41-af2c-14b6c63775c4}, for PoI {8feb1ee4-d53f-44b3-86e8-f6d44f83c812}
+2025-08-07 14:28:21,079 - ValidityFrame - INFO - Loaded data from experiment {EXP2,928e630a-aa13-46ac-8754-7cd9bfcc130b} measurement {rpm,105f9b5a-01c3-418b-8692-3c5b9857dd06}, for PoI {25b49a33-df1b-4652-82d6-358c732fd651}
+2025-08-29 13:51:28,210 - ValidityFrame - INFO - New validityFrame initialized with GUID {d5d4707b-1475-4a14-8926-6d81d14c67e1}
+2025-08-29 14:13:20,589 - ValidityFrame - INFO - Loading validity frame from package {../}
+2025-08-29 14:13:22,941 - ValidityFrame - INFO - Loaded data from experiment {EXP1,2f578619-2e7f-4f90-a213-e54dfafc2baa} measurement {power,f0340fc5-dac8-4649-a5f4-3e8c89c5350b}, for PoI {8feb1ee4-d53f-44b3-86e8-f6d44f83c812}
+2025-08-29 14:13:22,941 - ValidityFrame - INFO - Loaded data from experiment {EXP2,928e630a-aa13-46ac-8754-7cd9bfcc130b} measurement {power,03ccdfef-f28f-4c41-af2c-14b6c63775c4}, for PoI {8feb1ee4-d53f-44b3-86e8-f6d44f83c812}
+2025-08-29 14:13:22,941 - ValidityFrame - INFO - Loaded data from experiment {EXP1,2f578619-2e7f-4f90-a213-e54dfafc2baa} measurement {rpm,9909e19c-8fcf-4093-9715-f8f56a0e5b85}, for PoI {25b49a33-df1b-4652-82d6-358c732fd651}
+2025-08-29 14:13:22,941 - ValidityFrame - INFO - Loaded data from experiment {EXP2,928e630a-aa13-46ac-8754-7cd9bfcc130b} measurement {rpm,105f9b5a-01c3-418b-8692-3c5b9857dd06}, for PoI {25b49a33-df1b-4652-82d6-358c732fd651}
+2025-08-29 14:14:53,036 - ValidityFrame - INFO - New validityFrame initialized with GUID {630f8166-7a0c-40ea-8f39-1a0d9b9acb79}
+2025-08-29 14:15:02,380 - ValidityFrame - INFO - New validityFrame initialized with GUID {4e450327-0697-4777-bb87-1965b4d6ee44}
+2025-08-29 14:15:02,380 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {0bed4536-0e73-4901-9a7a-2dbc349d80ba}
+2025-08-29 14:15:02,380 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {f6a59a0a-084e-4693-a1b6-9e2b14df58fa}
+2025-08-29 14:15:02,380 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {b3902678-5cd1-49d5-b899-29a46ed8c513}
+2025-08-29 14:15:02,380 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {b6aebf65-17fb-437a-ab1d-1ec390e06080}
+2025-08-29 14:15:02,380 - ValidityFrame - INFO - Assign PoI with GUID {0bed4536-0e73-4901-9a7a-2dbc349d80ba} to measurement with GUID {b7ac18e0-7758-4330-b7cb-15ca453fdd91
+2025-08-29 14:15:02,380 - ValidityFrame - INFO - Assign PoI with GUID {0bed4536-0e73-4901-9a7a-2dbc349d80ba} to measurement with GUID {c783918a-fed4-45e9-baec-762e46fe1dad
+2025-08-29 14:15:02,380 - ValidityFrame - INFO - Assign PoI with GUID {f6a59a0a-084e-4693-a1b6-9e2b14df58fa} to measurement with GUID {49e9d14b-4efa-469f-9bdb-4f1042058209
+2025-08-29 14:15:02,380 - ValidityFrame - INFO - Assign PoI with GUID {f6a59a0a-084e-4693-a1b6-9e2b14df58fa} to measurement with GUID {77f5cc14-2d51-44a7-aa74-b76c522c2f20
+2025-08-29 14:15:02,380 - ValidityFrame - INFO - Adding a model structure with GUID {e90f9c15-594b-48c9-9ff5-b87c37832aba to the validity frame
+2025-08-29 14:15:02,380 - ValidityFrame - INFO - Adding a model structure with GUID {4064a896-bef4-4917-90ea-8106a6299052 to the validity frame
+2025-08-29 14:15:32,504 - ValidityFrame - INFO - New validityFrame initialized with GUID {f96ca5fd-328e-48b1-ab79-adfa2590319a}
+2025-08-29 14:15:32,504 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {806c7907-adca-449c-a3d9-b56ddaeb078d}
+2025-08-29 14:15:32,504 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {9d2c3529-c2af-4227-bdc1-95a9acc0ade4}
+2025-08-29 14:15:32,504 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {0ffb5993-57de-4eb4-b636-3db271117541}
+2025-08-29 14:15:32,504 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {fecb8e24-ec3c-4ec2-aeca-e3e5e501bd5c}
+2025-08-29 14:15:32,504 - ValidityFrame - INFO - Assign PoI with GUID {806c7907-adca-449c-a3d9-b56ddaeb078d} to measurement with GUID {b098d6fd-e18b-4474-a1a9-1a74cb6c53b2
+2025-08-29 14:15:32,504 - ValidityFrame - INFO - Assign PoI with GUID {806c7907-adca-449c-a3d9-b56ddaeb078d} to measurement with GUID {097f6a16-d03a-43d3-b83b-de183d84c900
+2025-08-29 14:15:32,504 - ValidityFrame - INFO - Assign PoI with GUID {9d2c3529-c2af-4227-bdc1-95a9acc0ade4} to measurement with GUID {3673d348-c6eb-4d8d-be74-133f61f24626
+2025-08-29 14:15:32,504 - ValidityFrame - INFO - Assign PoI with GUID {9d2c3529-c2af-4227-bdc1-95a9acc0ade4} to measurement with GUID {4d0e525e-e566-48be-9916-37d6151ca9e0
+2025-08-29 14:15:32,504 - ValidityFrame - INFO - Adding a model structure with GUID {6b672458-fb8a-45a2-8ee0-2b69fec674c2 to the validity frame
+2025-08-29 14:15:32,504 - ValidityFrame - INFO - Adding a model structure with GUID {86a31679-7854-4859-acf6-1a931c5bc359 to the validity frame
+2025-08-29 14:15:46,966 - ValidityFrame - INFO - Loading validity frame from package {../}
+2025-08-29 14:15:48,064 - ValidityFrame - INFO - Loaded data from experiment {EXP1,56a75847-ca6a-48e3-942c-5dd9c011aff9} measurement {power,b098d6fd-e18b-4474-a1a9-1a74cb6c53b2}, for PoI {806c7907-adca-449c-a3d9-b56ddaeb078d}
+2025-08-29 14:15:48,064 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {power,097f6a16-d03a-43d3-b83b-de183d84c900}, for PoI {806c7907-adca-449c-a3d9-b56ddaeb078d}
+2025-08-29 14:15:48,064 - ValidityFrame - INFO - Loaded data from experiment {EXP1,56a75847-ca6a-48e3-942c-5dd9c011aff9} measurement {rpm,3673d348-c6eb-4d8d-be74-133f61f24626}, for PoI {9d2c3529-c2af-4227-bdc1-95a9acc0ade4}
+2025-08-29 14:15:48,064 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {rpm,4d0e525e-e566-48be-9916-37d6151ca9e0}, for PoI {9d2c3529-c2af-4227-bdc1-95a9acc0ade4}
+2025-08-29 14:15:54,154 - ValidityFrame - INFO - Adding a model reference (Sources/anomalyDetector_2D_model.pkl) to the active model structure of the validity frame
+2025-08-29 14:26:16,170 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 14:26:16,171 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {power,097f6a16-d03a-43d3-b83b-de183d84c900}, for PoI {806c7907-adca-449c-a3d9-b56ddaeb078d}
+2025-08-29 14:26:16,171 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {rpm,4d0e525e-e566-48be-9916-37d6151ca9e0}, for PoI {9d2c3529-c2af-4227-bdc1-95a9acc0ade4}
+2025-08-29 14:27:10,842 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 14:27:10,843 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {power,097f6a16-d03a-43d3-b83b-de183d84c900}, for PoI {806c7907-adca-449c-a3d9-b56ddaeb078d}
+2025-08-29 14:27:10,843 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {rpm,4d0e525e-e566-48be-9916-37d6151ca9e0}, for PoI {9d2c3529-c2af-4227-bdc1-95a9acc0ade4}
+2025-08-29 14:27:34,346 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 14:27:43,040 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 14:28:45,758 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 14:29:29,480 - ValidityFrame - INFO - New validityFrame initialized with GUID {b1ed7cb5-7c93-4d64-9b98-5cceecb5d9b9}
+2025-08-29 14:29:29,480 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {7c3d3c49-043b-40a0-886d-7f3c166c01be}
+2025-08-29 14:29:29,480 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {dfc0ce5c-1d9e-4e2f-913d-fc824cc1f547}
+2025-08-29 14:29:29,481 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {2585c3f0-5f07-4417-b0f6-0060714414c8}
+2025-08-29 14:29:29,481 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {1eb501a3-ed98-4ce8-b125-4164fcb37e68}
+2025-08-29 14:29:29,481 - ValidityFrame - INFO - Assign PoI with GUID {7c3d3c49-043b-40a0-886d-7f3c166c01be} to measurement with GUID {04213d79-35c0-4ff3-8a67-1850e67a6ded
+2025-08-29 14:29:29,481 - ValidityFrame - INFO - Assign PoI with GUID {7c3d3c49-043b-40a0-886d-7f3c166c01be} to measurement with GUID {e39cd094-83dc-4822-b3c4-00fcb90b6a10
+2025-08-29 14:29:29,481 - ValidityFrame - INFO - Assign PoI with GUID {dfc0ce5c-1d9e-4e2f-913d-fc824cc1f547} to measurement with GUID {d389834c-2637-4bde-9e43-52d7034c2739
+2025-08-29 14:29:29,481 - ValidityFrame - INFO - Assign PoI with GUID {dfc0ce5c-1d9e-4e2f-913d-fc824cc1f547} to measurement with GUID {97dcd598-9932-4783-b489-36ea1794434a
+2025-08-29 14:29:29,481 - ValidityFrame - INFO - Adding a model structure with GUID {52f1190d-a9b3-4469-ae73-a2d9bef2401a to the validity frame
+2025-08-29 14:29:29,481 - ValidityFrame - INFO - Adding a model structure with GUID {150a02da-dcbc-4f60-a8a8-f22dcda99cb4 to the validity frame
+2025-08-29 14:32:38,714 - ValidityFrame - INFO - New validityFrame initialized with GUID {6fe7534a-e864-48f5-9853-01ee091db745}
+2025-08-29 14:32:38,714 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {45eb7c2c-640c-4bb0-9b96-e0c81044e36b}
+2025-08-29 14:32:38,714 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {2b16ae8e-44d8-4d70-86f5-cc0bc3b374eb}
+2025-08-29 14:32:38,715 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {64d20da5-f6c7-4513-8ca2-f4bda9ab2f6a}
+2025-08-29 14:32:38,715 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {ba6219ef-c6b9-471b-82b0-60d8c73c57a3}
+2025-08-29 14:32:38,715 - ValidityFrame - INFO - Assign PoI with GUID {45eb7c2c-640c-4bb0-9b96-e0c81044e36b} to measurement with GUID {59ff1b39-675a-40e5-aa5d-3507ec5bf0db
+2025-08-29 14:32:38,715 - ValidityFrame - INFO - Assign PoI with GUID {45eb7c2c-640c-4bb0-9b96-e0c81044e36b} to measurement with GUID {6e7a6446-8656-41c3-a1dd-3e969f20ba06
+2025-08-29 14:32:38,715 - ValidityFrame - INFO - Assign PoI with GUID {2b16ae8e-44d8-4d70-86f5-cc0bc3b374eb} to measurement with GUID {4cc7d653-c20f-4528-81e5-32e90ed0bb77
+2025-08-29 14:32:38,715 - ValidityFrame - INFO - Assign PoI with GUID {2b16ae8e-44d8-4d70-86f5-cc0bc3b374eb} to measurement with GUID {09dd179e-ad6a-4890-8132-8d8d57bf74df
+2025-08-29 14:32:38,715 - ValidityFrame - INFO - Adding a model structure with GUID {69cb1d4c-e864-4be3-b454-45d5ac837dcd to the validity frame
+2025-08-29 14:32:38,715 - ValidityFrame - INFO - Adding a model structure with GUID {da92d44c-ba52-44d6-a312-469cf42d2a94 to the validity frame
+2025-08-29 14:33:44,702 - ValidityFrame - INFO - New validityFrame initialized with GUID {c94dc37f-b163-4bd8-873e-e38e47905a1e}
+2025-08-29 14:35:18,656 - ValidityFrame - INFO - Loading validity frame from package {../}
+2025-08-29 14:35:21,596 - ValidityFrame - INFO - Loaded data from experiment {EXP1,56a75847-ca6a-48e3-942c-5dd9c011aff9} measurement {power,b098d6fd-e18b-4474-a1a9-1a74cb6c53b2}, for PoI {806c7907-adca-449c-a3d9-b56ddaeb078d}
+2025-08-29 14:35:21,596 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {power,097f6a16-d03a-43d3-b83b-de183d84c900}, for PoI {806c7907-adca-449c-a3d9-b56ddaeb078d}
+2025-08-29 14:35:21,596 - ValidityFrame - INFO - Loaded data from experiment {EXP1,56a75847-ca6a-48e3-942c-5dd9c011aff9} measurement {rpm,3673d348-c6eb-4d8d-be74-133f61f24626}, for PoI {9d2c3529-c2af-4227-bdc1-95a9acc0ade4}
+2025-08-29 14:35:21,596 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {rpm,4d0e525e-e566-48be-9916-37d6151ca9e0}, for PoI {9d2c3529-c2af-4227-bdc1-95a9acc0ade4}
+2025-08-29 14:35:27,700 - ValidityFrame - INFO - Adding a model reference (Sources/anomalyDetector_2D_model.pkl) to the active model structure of the validity frame
+2025-08-29 14:36:26,687 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 14:36:51,842 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 14:37:06,101 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 14:37:06,101 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {power,097f6a16-d03a-43d3-b83b-de183d84c900}, for PoI {806c7907-adca-449c-a3d9-b56ddaeb078d}
+2025-08-29 14:37:06,101 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {rpm,4d0e525e-e566-48be-9916-37d6151ca9e0}, for PoI {9d2c3529-c2af-4227-bdc1-95a9acc0ade4}
+2025-08-29 14:37:57,993 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 14:37:57,994 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {power,097f6a16-d03a-43d3-b83b-de183d84c900}, for PoI {806c7907-adca-449c-a3d9-b56ddaeb078d}
+2025-08-29 14:37:57,994 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {rpm,4d0e525e-e566-48be-9916-37d6151ca9e0}, for PoI {9d2c3529-c2af-4227-bdc1-95a9acc0ade4}
+2025-08-29 14:40:05,702 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 14:40:05,703 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {power,097f6a16-d03a-43d3-b83b-de183d84c900}, for PoI {806c7907-adca-449c-a3d9-b56ddaeb078d}
+2025-08-29 14:40:05,703 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {rpm,4d0e525e-e566-48be-9916-37d6151ca9e0}, for PoI {9d2c3529-c2af-4227-bdc1-95a9acc0ade4}
+2025-08-29 14:41:38,873 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 14:41:38,874 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {power,097f6a16-d03a-43d3-b83b-de183d84c900}, for PoI {806c7907-adca-449c-a3d9-b56ddaeb078d}
+2025-08-29 14:41:38,874 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {rpm,4d0e525e-e566-48be-9916-37d6151ca9e0}, for PoI {9d2c3529-c2af-4227-bdc1-95a9acc0ade4}
+2025-08-29 14:44:47,726 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 14:44:47,727 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {power,097f6a16-d03a-43d3-b83b-de183d84c900}, for PoI {806c7907-adca-449c-a3d9-b56ddaeb078d}
+2025-08-29 14:44:47,727 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6fff2a37-a012-4247-aa23-65ea1c2cecba} measurement {rpm,4d0e525e-e566-48be-9916-37d6151ca9e0}, for PoI {9d2c3529-c2af-4227-bdc1-95a9acc0ade4}
+2025-08-29 15:13:13,572 - ValidityFrame - INFO - New validityFrame initialized with GUID {bc0d1984-8d61-4586-a72f-939c3e825304}
+2025-08-29 15:13:36,222 - ValidityFrame - INFO - New validityFrame initialized with GUID {05ccf539-4b44-49d5-9cb5-b154cc5e0653}
+2025-08-29 15:13:55,334 - ValidityFrame - INFO - New validityFrame initialized with GUID {cee56833-ec0e-453a-9fd8-cbb535089429}
+2025-08-29 15:13:55,335 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {88332104-4a8e-4d8a-9e3b-886af4e12e4f}
+2025-08-29 15:13:55,335 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {c556960f-06c5-473c-88e8-356bd53a94ec}
+2025-08-29 15:13:55,335 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {173be009-3ad9-4a2a-8c25-5b12ae119dd3}
+2025-08-29 15:13:55,335 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {3bb24fde-6d6a-4a22-8280-20ba77865ae9}
+2025-08-29 15:13:55,335 - ValidityFrame - INFO - Assign PoI with GUID {88332104-4a8e-4d8a-9e3b-886af4e12e4f} to measurement with GUID {e1398d6f-c3d4-4348-811e-a36eed33c97b
+2025-08-29 15:13:55,335 - ValidityFrame - INFO - Assign PoI with GUID {88332104-4a8e-4d8a-9e3b-886af4e12e4f} to measurement with GUID {5428e6d9-e35f-40fc-8824-b0e7bb84db39
+2025-08-29 15:13:55,335 - ValidityFrame - INFO - Assign PoI with GUID {c556960f-06c5-473c-88e8-356bd53a94ec} to measurement with GUID {f6df0f20-89aa-4ada-b099-a2355d9b7aff
+2025-08-29 15:13:55,335 - ValidityFrame - INFO - Assign PoI with GUID {c556960f-06c5-473c-88e8-356bd53a94ec} to measurement with GUID {a40b53a3-6f0b-4d70-b0b0-609762f9932b
+2025-08-29 15:13:55,335 - ValidityFrame - INFO - Adding a model structure with GUID {7183fa10-8fd7-4796-89de-a893e648c23f to the validity frame
+2025-08-29 15:13:55,335 - ValidityFrame - INFO - Adding a model structure with GUID {fe0e4a27-baaf-4fec-ac48-960b03413f9d to the validity frame
+2025-08-29 15:14:03,141 - ValidityFrame - INFO - Loading validity frame from package {../}
+2025-08-29 15:14:04,405 - ValidityFrame - INFO - Loaded data from experiment {EXP1,561fae8f-ea28-4c42-b3c5-2af3cc577096} measurement {power,e1398d6f-c3d4-4348-811e-a36eed33c97b}, for PoI {88332104-4a8e-4d8a-9e3b-886af4e12e4f}
+2025-08-29 15:14:04,405 - ValidityFrame - INFO - Loaded data from experiment {EXP2,45746e18-5714-4f88-8619-a7c30d4d5af7} measurement {power,5428e6d9-e35f-40fc-8824-b0e7bb84db39}, for PoI {88332104-4a8e-4d8a-9e3b-886af4e12e4f}
+2025-08-29 15:14:04,406 - ValidityFrame - INFO - Loaded data from experiment {EXP1,561fae8f-ea28-4c42-b3c5-2af3cc577096} measurement {rpm,f6df0f20-89aa-4ada-b099-a2355d9b7aff}, for PoI {c556960f-06c5-473c-88e8-356bd53a94ec}
+2025-08-29 15:14:04,406 - ValidityFrame - INFO - Loaded data from experiment {EXP2,45746e18-5714-4f88-8619-a7c30d4d5af7} measurement {rpm,a40b53a3-6f0b-4d70-b0b0-609762f9932b}, for PoI {c556960f-06c5-473c-88e8-356bd53a94ec}
+2025-08-29 15:14:10,498 - ValidityFrame - INFO - Adding a model reference (Sources/anomalyDetector_2D_model.pkl) to the active model structure of the validity frame
+2025-08-29 15:14:18,101 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 15:14:18,101 - ValidityFrame - INFO - Loaded data from experiment {EXP2,45746e18-5714-4f88-8619-a7c30d4d5af7} measurement {power,5428e6d9-e35f-40fc-8824-b0e7bb84db39}, for PoI {88332104-4a8e-4d8a-9e3b-886af4e12e4f}
+2025-08-29 15:14:18,102 - ValidityFrame - INFO - Loaded data from experiment {EXP2,45746e18-5714-4f88-8619-a7c30d4d5af7} measurement {rpm,a40b53a3-6f0b-4d70-b0b0-609762f9932b}, for PoI {c556960f-06c5-473c-88e8-356bd53a94ec}
+2025-08-29 15:14:43,904 - ValidityFrame - INFO - New validityFrame initialized with GUID {baf69582-03f6-4d24-98e0-8209ca79e33e}
+2025-08-29 15:14:43,904 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {c6b6c10d-52ca-4424-a262-01a58e9d2973}
+2025-08-29 15:14:43,904 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {f6b88849-21a0-4f5f-9636-a0b846c14ce2}
+2025-08-29 15:14:43,904 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {6d270a4b-b39c-4c30-a183-dbdb1f14ac0b}
+2025-08-29 15:14:43,904 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {dc9e18cf-7ef4-4fed-a9e9-113a4c81cb4a}
+2025-08-29 15:14:43,904 - ValidityFrame - INFO - Assign PoI with GUID {c6b6c10d-52ca-4424-a262-01a58e9d2973} to measurement with GUID {46f6d5c1-3e0c-483b-855f-b93c7076f1bd
+2025-08-29 15:14:43,904 - ValidityFrame - INFO - Assign PoI with GUID {c6b6c10d-52ca-4424-a262-01a58e9d2973} to measurement with GUID {3d216314-4972-4625-8a3d-b7fc2cd878f0
+2025-08-29 15:14:43,904 - ValidityFrame - INFO - Assign PoI with GUID {f6b88849-21a0-4f5f-9636-a0b846c14ce2} to measurement with GUID {c6c8f84c-81b4-46ff-b98d-922cbb750830
+2025-08-29 15:14:43,904 - ValidityFrame - INFO - Assign PoI with GUID {f6b88849-21a0-4f5f-9636-a0b846c14ce2} to measurement with GUID {63eff026-0368-4468-82ea-cbfd856d0d0d
+2025-08-29 15:14:43,904 - ValidityFrame - INFO - Adding a model structure with GUID {248255bb-e849-4e02-98c8-968d0272e58e to the validity frame
+2025-08-29 15:14:43,904 - ValidityFrame - INFO - Adding a model structure with GUID {31885e97-fa63-4f42-bcdd-21a89db9bf83 to the validity frame
+2025-08-29 15:14:52,664 - ValidityFrame - INFO - New validityFrame initialized with GUID {a829c84d-2f4a-4500-ae3d-9b2052cdac8a}
+2025-08-29 15:14:52,665 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {05364c28-c929-40f7-b3e5-74a1adc3d3ae}
+2025-08-29 15:14:52,665 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {759b51cd-4159-400d-891e-7bad7e8b6b8a}
+2025-08-29 15:14:52,665 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {1ff9ca50-f933-48e4-a493-3b55f9b9e480}
+2025-08-29 15:14:52,665 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {150ca176-bbf3-468c-9db8-56bdf9b86d4d}
+2025-08-29 15:14:52,665 - ValidityFrame - INFO - Assign PoI with GUID {05364c28-c929-40f7-b3e5-74a1adc3d3ae} to measurement with GUID {c35f8d49-a947-4e36-818c-56d0e0d7bbd7
+2025-08-29 15:14:52,665 - ValidityFrame - INFO - Assign PoI with GUID {05364c28-c929-40f7-b3e5-74a1adc3d3ae} to measurement with GUID {ff9fca91-ea34-4aac-a7b5-fa2b7b69a156
+2025-08-29 15:14:52,665 - ValidityFrame - INFO - Assign PoI with GUID {759b51cd-4159-400d-891e-7bad7e8b6b8a} to measurement with GUID {f7a4b9f1-e0ea-44c2-932b-745db87ee4b1
+2025-08-29 15:14:52,665 - ValidityFrame - INFO - Assign PoI with GUID {759b51cd-4159-400d-891e-7bad7e8b6b8a} to measurement with GUID {be70d19e-0982-4407-872d-64532ef06612
+2025-08-29 15:14:52,665 - ValidityFrame - INFO - Adding a model structure with GUID {295a62fa-ba6d-43e5-ab6b-00640a5cf15d to the validity frame
+2025-08-29 15:14:52,665 - ValidityFrame - INFO - Adding a model structure with GUID {505f5ec2-438f-4938-b3ef-bb0277447ccb to the validity frame
+2025-08-29 15:14:57,991 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 15:14:57,992 - ValidityFrame - INFO - Loaded data from experiment {EXP2,7c3d4b7b-0b1f-44f1-9a3d-757a2e5abfc2} measurement {power,ff9fca91-ea34-4aac-a7b5-fa2b7b69a156}, for PoI {05364c28-c929-40f7-b3e5-74a1adc3d3ae}
+2025-08-29 15:14:57,992 - ValidityFrame - INFO - Loaded data from experiment {EXP2,7c3d4b7b-0b1f-44f1-9a3d-757a2e5abfc2} measurement {rpm,be70d19e-0982-4407-872d-64532ef06612}, for PoI {759b51cd-4159-400d-891e-7bad7e8b6b8a}
+2025-08-29 15:15:05,185 - ValidityFrame - INFO - Loading validity frame from package {../}
+2025-08-29 15:15:06,563 - ValidityFrame - INFO - Loaded data from experiment {EXP1,599d95d0-bb28-4fe7-8539-2852fd302bb8} measurement {power,c35f8d49-a947-4e36-818c-56d0e0d7bbd7}, for PoI {05364c28-c929-40f7-b3e5-74a1adc3d3ae}
+2025-08-29 15:15:06,564 - ValidityFrame - INFO - Loaded data from experiment {EXP2,7c3d4b7b-0b1f-44f1-9a3d-757a2e5abfc2} measurement {power,ff9fca91-ea34-4aac-a7b5-fa2b7b69a156}, for PoI {05364c28-c929-40f7-b3e5-74a1adc3d3ae}
+2025-08-29 15:15:06,564 - ValidityFrame - INFO - Loaded data from experiment {EXP1,599d95d0-bb28-4fe7-8539-2852fd302bb8} measurement {rpm,f7a4b9f1-e0ea-44c2-932b-745db87ee4b1}, for PoI {759b51cd-4159-400d-891e-7bad7e8b6b8a}
+2025-08-29 15:15:06,564 - ValidityFrame - INFO - Loaded data from experiment {EXP2,7c3d4b7b-0b1f-44f1-9a3d-757a2e5abfc2} measurement {rpm,be70d19e-0982-4407-872d-64532ef06612}, for PoI {759b51cd-4159-400d-891e-7bad7e8b6b8a}
+2025-08-29 15:15:12,658 - ValidityFrame - INFO - Adding a model reference (Sources/anomalyDetector_2D_model.pkl) to the active model structure of the validity frame
+2025-08-29 15:15:21,479 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 15:15:21,479 - ValidityFrame - INFO - Loaded data from experiment {EXP2,7c3d4b7b-0b1f-44f1-9a3d-757a2e5abfc2} measurement {power,ff9fca91-ea34-4aac-a7b5-fa2b7b69a156}, for PoI {05364c28-c929-40f7-b3e5-74a1adc3d3ae}
+2025-08-29 15:15:21,479 - ValidityFrame - INFO - Loaded data from experiment {EXP2,7c3d4b7b-0b1f-44f1-9a3d-757a2e5abfc2} measurement {rpm,be70d19e-0982-4407-872d-64532ef06612}, for PoI {759b51cd-4159-400d-891e-7bad7e8b6b8a}
+2025-08-29 15:15:42,446 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 15:15:42,453 - ValidityFrame - INFO - Loaded data from experiment {EXP2,7c3d4b7b-0b1f-44f1-9a3d-757a2e5abfc2} measurement {power,ff9fca91-ea34-4aac-a7b5-fa2b7b69a156}, for PoI {05364c28-c929-40f7-b3e5-74a1adc3d3ae}
+2025-08-29 15:15:42,453 - ValidityFrame - INFO - Loaded data from experiment {EXP2,7c3d4b7b-0b1f-44f1-9a3d-757a2e5abfc2} measurement {rpm,be70d19e-0982-4407-872d-64532ef06612}, for PoI {759b51cd-4159-400d-891e-7bad7e8b6b8a}
+2025-08-29 15:16:43,614 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 15:16:43,615 - ValidityFrame - INFO - Loaded data from experiment {EXP2,7c3d4b7b-0b1f-44f1-9a3d-757a2e5abfc2} measurement {power,ff9fca91-ea34-4aac-a7b5-fa2b7b69a156}, for PoI {05364c28-c929-40f7-b3e5-74a1adc3d3ae}
+2025-08-29 15:16:43,615 - ValidityFrame - INFO - Loaded data from experiment {EXP2,7c3d4b7b-0b1f-44f1-9a3d-757a2e5abfc2} measurement {rpm,be70d19e-0982-4407-872d-64532ef06612}, for PoI {759b51cd-4159-400d-891e-7bad7e8b6b8a}
+2025-08-29 15:20:51,672 - ValidityFrame - INFO - New validityFrame initialized with GUID {5b566e2a-8048-4464-8d8d-2bdf16f7b9aa}
+2025-08-29 15:20:51,673 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {17d161ed-5ad5-4796-badb-8ed5aa751cfc}
+2025-08-29 15:20:51,673 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {1ce63941-85f7-46d1-b361-a00a19b01c06}
+2025-08-29 15:20:51,673 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {fd4ddd66-2032-4928-8427-9b0ec85007cb}
+2025-08-29 15:20:51,673 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {0bc9c68e-a087-4a67-a950-36da11dbcfb9}
+2025-08-29 15:20:51,673 - ValidityFrame - INFO - Assign PoI with GUID {17d161ed-5ad5-4796-badb-8ed5aa751cfc} to measurement with GUID {b17f73a1-09f4-48ba-99f3-813ed8d40aa0
+2025-08-29 15:20:51,673 - ValidityFrame - INFO - Assign PoI with GUID {17d161ed-5ad5-4796-badb-8ed5aa751cfc} to measurement with GUID {787295ea-760c-49de-97c2-7e1aee9d975a
+2025-08-29 15:20:51,673 - ValidityFrame - INFO - Assign PoI with GUID {1ce63941-85f7-46d1-b361-a00a19b01c06} to measurement with GUID {9ea01c40-92fb-4c62-a876-163f5b544065
+2025-08-29 15:20:51,673 - ValidityFrame - INFO - Assign PoI with GUID {1ce63941-85f7-46d1-b361-a00a19b01c06} to measurement with GUID {5341b604-5139-4745-a523-30445e0ec9fe
+2025-08-29 15:20:51,673 - ValidityFrame - INFO - Adding a model structure with GUID {bb27ec3e-dd14-43b5-b8f3-ee63f8874467 to the validity frame
+2025-08-29 15:20:51,673 - ValidityFrame - INFO - Adding a model structure with GUID {e126a341-883c-45db-8100-e679eb807419 to the validity frame
+2025-08-29 15:21:12,922 - ValidityFrame - INFO - Loading validity frame from package {../}
+2025-08-29 15:21:14,042 - ValidityFrame - INFO - Loaded data from experiment {EXP1,87ecad85-0d28-467d-a3b9-7a8bae642ba5} measurement {power,b17f73a1-09f4-48ba-99f3-813ed8d40aa0}, for PoI {17d161ed-5ad5-4796-badb-8ed5aa751cfc}
+2025-08-29 15:21:14,043 - ValidityFrame - INFO - Loaded data from experiment {EXP2,30d15902-a680-4d17-9a03-f8e088598bfa} measurement {power,787295ea-760c-49de-97c2-7e1aee9d975a}, for PoI {17d161ed-5ad5-4796-badb-8ed5aa751cfc}
+2025-08-29 15:21:14,043 - ValidityFrame - INFO - Loaded data from experiment {EXP1,87ecad85-0d28-467d-a3b9-7a8bae642ba5} measurement {rpm,9ea01c40-92fb-4c62-a876-163f5b544065}, for PoI {1ce63941-85f7-46d1-b361-a00a19b01c06}
+2025-08-29 15:21:14,043 - ValidityFrame - INFO - Loaded data from experiment {EXP2,30d15902-a680-4d17-9a03-f8e088598bfa} measurement {rpm,5341b604-5139-4745-a523-30445e0ec9fe}, for PoI {1ce63941-85f7-46d1-b361-a00a19b01c06}
+2025-08-29 15:21:20,132 - ValidityFrame - INFO - Adding a model reference (Sources/anomalyDetector_2D_model.pkl) to the active model structure of the validity frame
+2025-08-29 15:22:34,141 - ValidityFrame - INFO - New validityFrame initialized with GUID {c81fbc8d-a0a2-4e73-9c6f-4f8f4635385b}
+2025-08-29 15:22:34,142 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {52131d59-2179-4bd2-ad32-74f3dc89ac4e}
+2025-08-29 15:22:34,142 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {7e8ea83f-c4f5-4de5-9aab-302f9476975f}
+2025-08-29 15:22:34,142 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {ee74e2e2-2a3b-45f2-b125-a8e3c1159fe1}
+2025-08-29 15:22:34,142 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {95bd776e-52b8-47b6-87a0-294723513c0e}
+2025-08-29 15:22:34,142 - ValidityFrame - INFO - Assign PoI with GUID {52131d59-2179-4bd2-ad32-74f3dc89ac4e} to measurement with GUID {5ac90fd4-9f3c-4d82-97a0-e160ccf4b4ac
+2025-08-29 15:22:34,142 - ValidityFrame - INFO - Assign PoI with GUID {52131d59-2179-4bd2-ad32-74f3dc89ac4e} to measurement with GUID {2ebe5b76-4f63-49ad-97fd-2be2710cd5ef
+2025-08-29 15:22:34,142 - ValidityFrame - INFO - Assign PoI with GUID {7e8ea83f-c4f5-4de5-9aab-302f9476975f} to measurement with GUID {d7c67c28-f975-4774-89a6-1f60b1179c90
+2025-08-29 15:22:34,142 - ValidityFrame - INFO - Assign PoI with GUID {7e8ea83f-c4f5-4de5-9aab-302f9476975f} to measurement with GUID {da603f20-d6d1-4ac1-b70e-3f2ad12c931f
+2025-08-29 15:22:34,142 - ValidityFrame - INFO - Adding a model structure with GUID {be7274de-ac3f-4abb-9fae-3372c6fd4642 to the validity frame
+2025-08-29 15:22:34,142 - ValidityFrame - INFO - Adding a model structure with GUID {ea68f0ec-40af-47e3-91ba-06ffcd63cd99 to the validity frame
+2025-08-29 15:22:46,865 - ValidityFrame - INFO - Loading validity frame from package {../}
+2025-08-29 15:22:50,586 - ValidityFrame - INFO - Loaded data from experiment {EXP1,63937a16-bb4f-45f8-9440-ee2ae4e914d9} measurement {power,5ac90fd4-9f3c-4d82-97a0-e160ccf4b4ac}, for PoI {52131d59-2179-4bd2-ad32-74f3dc89ac4e}
+2025-08-29 15:22:50,586 - ValidityFrame - INFO - Loaded data from experiment {EXP2,5b3d7d42-9ef8-41c6-b5f1-907b7ecacc46} measurement {power,2ebe5b76-4f63-49ad-97fd-2be2710cd5ef}, for PoI {52131d59-2179-4bd2-ad32-74f3dc89ac4e}
+2025-08-29 15:22:50,586 - ValidityFrame - INFO - Loaded data from experiment {EXP1,63937a16-bb4f-45f8-9440-ee2ae4e914d9} measurement {rpm,d7c67c28-f975-4774-89a6-1f60b1179c90}, for PoI {7e8ea83f-c4f5-4de5-9aab-302f9476975f}
+2025-08-29 15:22:50,586 - ValidityFrame - INFO - Loaded data from experiment {EXP2,5b3d7d42-9ef8-41c6-b5f1-907b7ecacc46} measurement {rpm,da603f20-d6d1-4ac1-b70e-3f2ad12c931f}, for PoI {7e8ea83f-c4f5-4de5-9aab-302f9476975f}
+2025-08-29 15:22:56,685 - ValidityFrame - INFO - Adding a model reference (Sources/anomalyDetector_2D_model.pkl) to the active model structure of the validity frame
+2025-08-29 15:24:34,032 - ValidityFrame - INFO - New validityFrame initialized with GUID {b66c0db0-3c24-40ba-b1f3-b9c30187e7e0}
+2025-08-29 15:24:34,032 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {9ac89476-fc01-44e1-9400-a8c523f16ceb}
+2025-08-29 15:24:34,032 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {fb0c0139-a7a8-4765-871a-713e7324a15d}
+2025-08-29 15:24:34,032 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {aa8f00c6-9a44-48fa-8984-56c49d9cce4a}
+2025-08-29 15:24:34,032 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {9d203389-0179-415f-8204-90c2e70be82c}
+2025-08-29 15:24:34,032 - ValidityFrame - INFO - Assign PoI with GUID {9ac89476-fc01-44e1-9400-a8c523f16ceb} to measurement with GUID {93bc4299-4025-4881-a7cd-06556f5d65c1
+2025-08-29 15:24:34,032 - ValidityFrame - INFO - Assign PoI with GUID {9ac89476-fc01-44e1-9400-a8c523f16ceb} to measurement with GUID {e285c478-1251-4564-8aa0-be4507e75918
+2025-08-29 15:24:34,032 - ValidityFrame - INFO - Assign PoI with GUID {fb0c0139-a7a8-4765-871a-713e7324a15d} to measurement with GUID {3431d890-82cd-49c2-9182-2598b665ed43
+2025-08-29 15:24:34,032 - ValidityFrame - INFO - Assign PoI with GUID {fb0c0139-a7a8-4765-871a-713e7324a15d} to measurement with GUID {8af00e2e-dbe1-423b-8490-8d061bcfb9a0
+2025-08-29 15:24:34,032 - ValidityFrame - INFO - Adding a model structure with GUID {b058fc1d-1f82-4973-86b5-a184a5cbaab7 to the validity frame
+2025-08-29 15:24:34,032 - ValidityFrame - INFO - Adding a model structure with GUID {f3714697-18fa-4ac6-a97e-ffea09200793 to the validity frame
+2025-08-29 15:25:32,195 - ValidityFrame - INFO - Loading validity frame from package {../}
+2025-08-29 15:28:10,556 - ValidityFrame - INFO - Loading validity frame from package {../}
+2025-08-29 15:28:39,885 - ValidityFrame - INFO - New validityFrame initialized with GUID {d15aa5d9-c224-43ac-8b48-5bcc54f639f5}
+2025-08-29 15:28:39,885 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {c5f8c781-7cd3-4d4f-9014-56301d1a9aa3}
+2025-08-29 15:28:39,885 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {d439fac9-b0cb-4977-a721-c829a240bee9}
+2025-08-29 15:28:39,885 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {09a1a148-6a97-43c1-bb6c-e7ed4ce5bc7c}
+2025-08-29 15:28:39,885 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {d7b4e149-37a6-4450-b123-07efea4ac8ba}
+2025-08-29 15:28:39,885 - ValidityFrame - INFO - Assign PoI with GUID {c5f8c781-7cd3-4d4f-9014-56301d1a9aa3} to measurement with GUID {036bc870-69f0-4b06-bd2b-da74b90acc67
+2025-08-29 15:28:39,885 - ValidityFrame - INFO - Assign PoI with GUID {c5f8c781-7cd3-4d4f-9014-56301d1a9aa3} to measurement with GUID {19ead185-46da-48ae-b506-e11463e4504b
+2025-08-29 15:28:39,885 - ValidityFrame - INFO - Assign PoI with GUID {d439fac9-b0cb-4977-a721-c829a240bee9} to measurement with GUID {4d7fc935-1381-466c-98e2-2fbbf4311c9a
+2025-08-29 15:28:39,885 - ValidityFrame - INFO - Assign PoI with GUID {d439fac9-b0cb-4977-a721-c829a240bee9} to measurement with GUID {f2eac8bc-b5ed-494c-8ea1-02996fe95f76
+2025-08-29 15:28:39,885 - ValidityFrame - INFO - Adding a model structure with GUID {871a6925-9f87-403c-b87e-1b6df6100d70 to the validity frame
+2025-08-29 15:28:39,885 - ValidityFrame - INFO - Adding a model structure with GUID {129054fc-e70e-4ac8-9780-a691a153884d to the validity frame
+2025-08-29 15:29:29,351 - ValidityFrame - INFO - New validityFrame initialized with GUID {69550b49-16f3-4a03-b740-294a571a62bc}
+2025-08-29 15:29:29,351 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {116cd1bf-d3b5-4cbc-8763-d4efb6bc1a90}
+2025-08-29 15:29:29,351 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {4d52f9b7-72f4-4608-a0d7-68ad0d69e4d6}
+2025-08-29 15:29:29,351 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {3f394893-ae69-43db-ad3d-4f53b5b6189c}
+2025-08-29 15:29:29,351 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {1f06ccba-aba4-48ee-a3fe-8ad0240515e9}
+2025-08-29 15:29:29,351 - ValidityFrame - INFO - Assign PoI with GUID {116cd1bf-d3b5-4cbc-8763-d4efb6bc1a90} to measurement with GUID {e85b0fb1-4e99-4cf1-b1ed-aafa75605f91
+2025-08-29 15:29:29,351 - ValidityFrame - INFO - Assign PoI with GUID {116cd1bf-d3b5-4cbc-8763-d4efb6bc1a90} to measurement with GUID {70d43c5b-e2f9-4b0b-8466-e27faaca1d01
+2025-08-29 15:29:29,351 - ValidityFrame - INFO - Assign PoI with GUID {4d52f9b7-72f4-4608-a0d7-68ad0d69e4d6} to measurement with GUID {a1ce8eb9-3ed2-4c57-8841-28aec323e42d
+2025-08-29 15:29:29,351 - ValidityFrame - INFO - Assign PoI with GUID {4d52f9b7-72f4-4608-a0d7-68ad0d69e4d6} to measurement with GUID {e6c66236-1f36-4c1c-9cbb-3e59cd8ace95
+2025-08-29 15:29:29,351 - ValidityFrame - INFO - Adding a model structure with GUID {4c97ced1-d4b0-43c7-bf9d-995afd0eb9df to the validity frame
+2025-08-29 15:29:29,351 - ValidityFrame - INFO - Adding a model structure with GUID {428bcee5-d436-428c-876f-371411f6eaae to the validity frame
+2025-08-29 15:29:35,671 - ValidityFrame - INFO - Loading validity frame from package {../}
+2025-08-29 15:29:36,978 - ValidityFrame - INFO - Loaded data from experiment {EXP1,9abfe44c-ec95-4081-ac4a-b77613db9f54} measurement {power,e85b0fb1-4e99-4cf1-b1ed-aafa75605f91}, for PoI {116cd1bf-d3b5-4cbc-8763-d4efb6bc1a90}
+2025-08-29 15:29:36,978 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {power,70d43c5b-e2f9-4b0b-8466-e27faaca1d01}, for PoI {116cd1bf-d3b5-4cbc-8763-d4efb6bc1a90}
+2025-08-29 15:29:36,978 - ValidityFrame - INFO - Loaded data from experiment {EXP1,9abfe44c-ec95-4081-ac4a-b77613db9f54} measurement {rpm,a1ce8eb9-3ed2-4c57-8841-28aec323e42d}, for PoI {4d52f9b7-72f4-4608-a0d7-68ad0d69e4d6}
+2025-08-29 15:29:36,978 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {rpm,e6c66236-1f36-4c1c-9cbb-3e59cd8ace95}, for PoI {4d52f9b7-72f4-4608-a0d7-68ad0d69e4d6}
+2025-08-29 15:29:43,074 - ValidityFrame - INFO - Adding a model reference (Sources/anomalyDetector_2D_model.pkl) to the active model structure of the validity frame
+2025-08-29 15:29:58,175 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 15:29:58,177 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {power,70d43c5b-e2f9-4b0b-8466-e27faaca1d01}, for PoI {116cd1bf-d3b5-4cbc-8763-d4efb6bc1a90}
+2025-08-29 15:29:58,177 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {rpm,e6c66236-1f36-4c1c-9cbb-3e59cd8ace95}, for PoI {4d52f9b7-72f4-4608-a0d7-68ad0d69e4d6}
+2025-08-29 15:30:15,594 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 15:30:22,342 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {power,70d43c5b-e2f9-4b0b-8466-e27faaca1d01}, for PoI {116cd1bf-d3b5-4cbc-8763-d4efb6bc1a90}
+2025-08-29 15:30:22,342 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {rpm,e6c66236-1f36-4c1c-9cbb-3e59cd8ace95}, for PoI {4d52f9b7-72f4-4608-a0d7-68ad0d69e4d6}
+2025-08-29 15:31:35,786 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 15:31:35,787 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {power,70d43c5b-e2f9-4b0b-8466-e27faaca1d01}, for PoI {116cd1bf-d3b5-4cbc-8763-d4efb6bc1a90}
+2025-08-29 15:31:35,787 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {rpm,e6c66236-1f36-4c1c-9cbb-3e59cd8ace95}, for PoI {4d52f9b7-72f4-4608-a0d7-68ad0d69e4d6}
+2025-08-29 15:32:44,110 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 15:32:44,111 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {power,70d43c5b-e2f9-4b0b-8466-e27faaca1d01}, for PoI {116cd1bf-d3b5-4cbc-8763-d4efb6bc1a90}
+2025-08-29 15:32:44,111 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {rpm,e6c66236-1f36-4c1c-9cbb-3e59cd8ace95}, for PoI {4d52f9b7-72f4-4608-a0d7-68ad0d69e4d6}
+2025-08-29 15:32:53,962 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 15:32:53,962 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {power,70d43c5b-e2f9-4b0b-8466-e27faaca1d01}, for PoI {116cd1bf-d3b5-4cbc-8763-d4efb6bc1a90}
+2025-08-29 15:32:53,962 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {rpm,e6c66236-1f36-4c1c-9cbb-3e59cd8ace95}, for PoI {4d52f9b7-72f4-4608-a0d7-68ad0d69e4d6}
+2025-08-29 15:33:22,915 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-29 15:33:22,916 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {power,70d43c5b-e2f9-4b0b-8466-e27faaca1d01}, for PoI {116cd1bf-d3b5-4cbc-8763-d4efb6bc1a90}
+2025-08-29 15:33:22,916 - ValidityFrame - INFO - Loaded data from experiment {EXP2,6552fd91-1c21-4a4e-862e-aaee73ee8841} measurement {rpm,e6c66236-1f36-4c1c-9cbb-3e59cd8ace95}, for PoI {4d52f9b7-72f4-4608-a0d7-68ad0d69e4d6}

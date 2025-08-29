@@ -18,14 +18,14 @@ from vfworks.metamodels.experiment import *
 import yaml
 
 #-------------------------REMOTE OR LOCAL DATA------------------------------------------
-REMOTE_DATA = True
+REMOTE_DATA = False
 
 #---------------------------------------------------------------------------------------
 #                     PLACEHOLDER FUNCTION TO POPULATE VF_BLDC PACKAGE                      #
 #---------------------------------------------------------------------------------------
 
 #-------------------------VALIDITY FRAME------------------------------------------------
-VF = ValidityFrame(name="VF_BLDC_SANDBOX", description="Populate VF_BLDC_SANDBOX package",config="config.yaml")
+VF = ValidityFrame(name="BLDC_VF", description="Populate BLDC_VF package",config="config.yaml")
 
 #-------------------------EXPERIMENTS----------------------------------------
 if not REMOTE_DATA:
@@ -39,18 +39,22 @@ if not REMOTE_DATA:
     EXP1.addCondition(ExperimentCondition(name="temperature",value=20.0))
     m1 = Measurement(name="timestamp",dataPoints=[],reference="Experiments/EXP1/timestamp.csv")
     m2 = Measurement(name="power",dataPoints=[],reference="Experiments/EXP1/power.csv")
+    m3 = Measurement(name="rpm", dataPoints=[], reference="Experiments/EXP1/rpm.csv")
     EXP1.addMeasurement(measurement=m1)
     EXP1.addMeasurement(measurement=m2)
+    EXP1.addMeasurement(measurement=m3)
 
     # ---- EXPERIMENT2 ----
     EXP2 = Experiment(name="EXP2",description="Second experiment",label="anomaly")
     EXP2.addCondition(ExperimentCondition(name="experimentTime",value=50))
     EXP2.addCondition(ExperimentCondition(name="velocityCommand",value=100))
     EXP2.addCondition(ExperimentCondition(name="temperature",value=20.0))
-    m3 = Measurement(name="timestamp",dataPoints=[],reference="Experiments/EXP2/timestamp.csv")
-    m4 = Measurement(name="power",dataPoints=[],reference="Experiments/EXP2/power.csv")
-    EXP2.addMeasurement(measurement=m3)
+    m4 = Measurement(name="timestamp",dataPoints=[],reference="Experiments/EXP2/timestamp.csv")
+    m5 = Measurement(name="power",dataPoints=[],reference="Experiments/EXP2/power.csv")
+    m6 = Measurement(name="rpm", dataPoints=[], reference="Experiments/EXP2/rpm.csv")
     EXP2.addMeasurement(measurement=m4)
+    EXP2.addMeasurement(measurement=m5)
+    EXP2.addMeasurement(measurement=m6)
 
     VF.addExperiment(EXP1)
     VF.addExperiment(EXP2)
@@ -67,8 +71,10 @@ else:
 #-------------------------SPECIFICATIONS------------------------------------------------
 spec1 = Specification(name="Environment temperature", description="Required operation temperature", feature="temperature", type=PropertyType.PROPERTY_RANGE, valueMin=-10, valueMax=30, granularity=5, runtimeSpecification=False)
 spec2 = Specification(name="operation speed", description="", feature="velocityCommand", type=PropertyType.PROPERTY_MEAN, average=100, deviation=0.5)
+spec3 = Specification(name="model certainty", description="", feature="Certainty", type=PropertyType.PROPERTY_RANGE, valueMin=0.7, valueMax=1, granularity=10)
 VF.addSpecification(spec1)
 VF.addSpecification(spec2)
+VF.addSpecification(spec3)
 
 #------------------------------POI------------------------------------------------------
 poi1 = PropertyofInterest(name="Power",description="Electrical power of the BLDC motor",domain=DomainType.ELECTRICAL,unit=UnitType.Power_Watt,datatype=DataType.FLOAT_64,min=-50,max=100,satisfies=None)
@@ -97,16 +103,18 @@ OUT2= Outport(name="anomalyScore", unit=UnitType.UNIT_none)
 OUT2.add_mapping_relation(type="poi",poi=poi4)
 
 SM = ModelStructure(name="anomalyDetector_1D", inports=[IN1], outports=[OUT1,OUT2], modelType=ModelType.ISOLATIONFOREST)
-SM2 = ModelStructure(name="anomalyDetector_2D", inports=[IN1, IN2], outports=[OUT1,OUT2], modelType=ModelType.ISOLATIONFOREST, redundancy=6)
+SM2 = ModelStructure(name="anomalyDetector_2D", inports=[IN1, IN2], outports=[OUT1,OUT2], modelType=ModelType.ISOLATIONFOREST)
 VF.addModelStructure(SM)
 VF.addModelStructure(SM2)
 #-----------------------------PROCESSES-----------------------------------------------
 
 #-----------------------------MONITORS------------------------------------------------
-monitor1 = Monitor(name="Runtime monitor", description="Online monitoring of the model", observes=[spec2], monitor_type=MonitorType.RUN_TIME)
+monitor1 = Monitor(name="command monitor", description="Online monitoring of the model inputs", observes=[spec2], monitor_type=MonitorType.RUN_TIME)
 monitor2 = Monitor(name="design monitor", description="design time monitoring of the model", observes=[spec1], monitor_type=MonitorType.DESIGN_TIME)
+monitor3 = Monitor(name="certainty monitor", description="Online monitoring of the model output", observes=[spec3], monitor_type=MonitorType.RUN_TIME)
 VF.addMonitor(monitor1)
 VF.addMonitor(monitor2)
+VF.addMonitor(monitor3)
 #-------------------------------EXPORT VF_BLDC TO TEMPLATE PACKAGE-------------------------------------------
 packageName="VF_TORCH"
 VF.export(packageName=None)     #VF package is current working directory
