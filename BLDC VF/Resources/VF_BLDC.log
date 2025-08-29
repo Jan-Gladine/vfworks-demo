@@ -1,0 +1,20 @@
+2025-08-07 14:21:20,185 - ValidityFrame - INFO - New validityFrame initialized with GUID {5d79caa3-ceac-4575-a6ee-8521c7384ebc}
+2025-08-07 14:21:35,521 - ValidityFrame - INFO - New validityFrame initialized with GUID {c508ff97-aa57-4424-b751-9ea83c3989af}
+2025-08-07 14:21:35,549 - remoteExperiments - INFO - experiment added to the VF frame, GUID {fc474ee6-9696-47ee-92e6-b4c7d6951c84}
+2025-08-07 14:21:35,563 - remoteExperiments - INFO - experiment added to the VF frame, GUID {9c626fe6-a486-413a-b1cb-d8ab0a336a4a}
+2025-08-07 14:22:18,988 - ValidityFrame - INFO - New validityFrame initialized with GUID {74f7a4d7-a4e8-46e8-be85-d7c1cde6c911}
+2025-08-07 14:22:19,013 - remoteExperiments - INFO - experiment added to the VF frame, GUID {2f578619-2e7f-4f90-a213-e54dfafc2baa}
+2025-08-07 14:22:19,027 - remoteExperiments - INFO - experiment added to the VF frame, GUID {928e630a-aa13-46ac-8754-7cd9bfcc130b}
+2025-08-07 14:22:19,027 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {8feb1ee4-d53f-44b3-86e8-f6d44f83c812}
+2025-08-07 14:22:19,027 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {25b49a33-df1b-4652-82d6-358c732fd651}
+2025-08-07 14:22:19,027 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {e2ad199c-2545-4e3e-bb17-4fb0eb6678c0}
+2025-08-07 14:22:19,027 - ValidityFrame - INFO - Adding a property of interest to the validity frame with GUID {d73eda68-df1a-4e12-a25d-5638283151c5}
+2025-08-07 14:22:19,028 - ValidityFrame - INFO - Assign PoI with GUID {8feb1ee4-d53f-44b3-86e8-f6d44f83c812} to measurement with GUID {f0340fc5-dac8-4649-a5f4-3e8c89c5350b
+2025-08-07 14:22:19,028 - ValidityFrame - INFO - Assign PoI with GUID {8feb1ee4-d53f-44b3-86e8-f6d44f83c812} to measurement with GUID {03ccdfef-f28f-4c41-af2c-14b6c63775c4
+2025-08-07 14:22:19,028 - ValidityFrame - INFO - Assign PoI with GUID {25b49a33-df1b-4652-82d6-358c732fd651} to measurement with GUID {9909e19c-8fcf-4093-9715-f8f56a0e5b85
+2025-08-07 14:22:19,028 - ValidityFrame - INFO - Assign PoI with GUID {25b49a33-df1b-4652-82d6-358c732fd651} to measurement with GUID {105f9b5a-01c3-418b-8692-3c5b9857dd06
+2025-08-07 14:22:19,028 - ValidityFrame - INFO - Adding a model structure with GUID {e861ff83-066d-490d-a852-2db0ce8d6eb0 to the validity frame
+2025-08-07 14:22:19,028 - ValidityFrame - INFO - Adding a model structure with GUID {9e2d5274-0a63-49ba-966e-8d15bab68829 to the validity frame
+2025-08-07 14:28:21,078 - ValidityFrame - INFO - Loading validity frame from current workdir
+2025-08-07 14:28:21,079 - ValidityFrame - INFO - Loaded data from experiment {EXP2,928e630a-aa13-46ac-8754-7cd9bfcc130b} measurement {power,03ccdfef-f28f-4c41-af2c-14b6c63775c4}, for PoI {8feb1ee4-d53f-44b3-86e8-f6d44f83c812}
+2025-08-07 14:28:21,079 - ValidityFrame - INFO - Loaded data from experiment {EXP2,928e630a-aa13-46ac-8754-7cd9bfcc130b} measurement {rpm,105f9b5a-01c3-418b-8692-3c5b9857dd06}, for PoI {25b49a33-df1b-4652-82d6-358c732fd651}
